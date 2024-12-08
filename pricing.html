@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Business-promotion - Pricing</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+      integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/pricing.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container header-wrapper">
+        <nav class="header-menu">
+          <a class="header-logo" href="./index.html">
+            <svg class="icon" width="40" height="36">
+              <use href="./images/icons.svg#logo"></use>
+            </svg>
+            Product
+          </a>
+          <ul class="header-navlist">
+            <li class="header-navlist-item">
+              <a href="./index.html" class="header-navlist-link">Product</a>
+            </li>
+            <li class="header-navlist-item">
+              <a href="./pricing.html" class="header-navlist-link">Pricing</a>
+            </li>
+            <li class="header-navlist-item">
+              <a href="./customer.html" class="header-navlist-link"
+                >Customers</a
+              >
+            </li>
+            <li class="header-navlist-item">
+              <a class="header-navlist-link">Resources</a>
+            </li>
+          </ul>
+        </nav>
+        <ul class="header-buttonlist">
+          <li class="header-buttonlist-item">
+            <button class="sign-in-button" type="button">Sign In</button>
+          </li>
+          <li class="header-buttonlist-item">
+            <button class="sign-up-button" type="button">Sign Up</button>
+          </li>
+        </ul>
+        <svg class="icon burger-icon" width="28" height="32">
+          <use href="./images/icons.svg#menu"></use>
+        </svg>
+      </div>
+    </header>
+    <main>
+      <section class="price-section">
+        <div class="container price-container">
+          <p class="pretitle">pricing</p>
+          <h2 class="price-title">Let’s get some real work done here.</h2>
+          <p class="price-subtitle">
+            Prodict is your perfect solution for working. Get started now for
+            free
+          </p>
+          <ul class="price-card-list">
+            <li class="price-card-item">
+              <h3 class="price-card-title">Free</h3>
+              <p class="price-card-subtitle">Brief price description</p>
+              <div class="price-card-pricing-container">
+                <p class="price-value">0</p>
+                <div class="pricing-acide-block">
+                  <p class="price-currency">$</p>
+                  <p class="price-period">Per / month</p>
+                </div>
+              </div>
+              <ul class="price-card-features-list">
+                <li class="price-card-features-item">Only 2 Operators</li>
+                <li class="price-card-features-item">Notifications</li>
+                <li class="price-card-features-item">Landing Pages</li>
+              </ul>
+              <button class="price-card-button" type="button">Order Now</button>
+            </li>
+            <li class="price-card-item">
+              <h3 class="price-card-title">Standard</h3>
+              <p class="price-card-subtitle">Brief price description</p>
+              <div class="price-card-pricing-container">
+                <p class="price-value">5</p>
+                <div class="pricing-acide-block">
+                  <p class="price-currency">$</p>
+                  <p class="price-period">Per / month</p>
+                </div>
+              </div>
+              <ul class="price-card-features-list">
+                <li class="price-card-features-item">5+ Operators</li>
+                <li class="price-card-features-item">Notifications</li>
+                <li class="price-card-features-item">Landing Pages</li>
+              </ul>
+              <button class="price-card-button" type="button">Order Now</button>
+            </li>
+            <li class="price-card-item">
+              <h3 class="price-card-title">Premium</h3>
+              <p class="price-card-subtitle">Brief price description</p>
+              <div class="price-card-pricing-container">
+                <p class="price-value">10</p>
+                <div class="pricing-acide-block">
+                  <p class="price-currency">$</p>
+                  <p class="price-period">Per / month</p>
+                </div>
+              </div>
+              <ul class="price-card-features-list">
+                <li class="price-card-features-item">10+ Operators</li>
+                <li class="price-card-features-item">Notifications</li>
+                <li class="price-card-features-item">Landing Pages</li>
+              </ul>
+              <button class="price-card-button" type="button">Order Now</button>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="enterprise-section">
+        <div class="container">
+          <p class="pretitle">enterpise</p>
+          <h2 class="enterprise-title">
+            Are you interested in a custom tailored plan?
+          </h2>
+          <p class="enterprise-subtitle">
+            Product is a set of advanced features for really large teams with
+            projects.
+          </p>
+          <button class="enterprise-button" type="button">
+            Get in touch with us
+          </button>
+        </div>
+      </section>
+      <section class="effects-section">
+        <div class="container">
+          <h2 class="effects-title">
+            Product is being used with great effects alongside:
+          </h2>
+          <div class="effects-content-container">
+            <!-- применил костыль для смены изображения на разных устройствах -->
+            <div class="effects-image-container"></div>
+            <ul class="effects-list">
+              <li class="effects-item">
+                <div class="effects-content-title-block">
+                  <svg class="effects-icon" width="50" height="50">
+                    <use href="./images/icons.svg#effects-icon1"></use>
+                  </svg>
+                  <h3 class="effects-content-title">Enterpreneur</h3>
+                </div>
+                <p class="effects-content-description">
+                  Product is a great way to help medium and samall enterprise
+                  owners achieve their goals
+                </p>
+              </li>
+              <li class="effects-item">
+                <div class="effects-content-title-block">
+                  <svg class="effects-icon" width="50" height="50">
+                    <use href="./images/icons.svg#effects-icon2"></use>
+                  </svg>
+                  <h3 class="effects-content-title">Accountants</h3>
+                </div>
+                <p class="effects-content-description">
+                  Whether you are working on contract with clients, or on other
+                  key accounting documents, Product is for you
+                </p>
+              </li>
+              <li class="effects-item">
+                <div class="effects-content-title-block">
+                  <svg class="effects-icon" width="50" height="50">
+                    <use href="./images/icons.svg#effects-icon3"></use>
+                  </svg>
+                  <h3 class="effects-content-title">Universities</h3>
+                </div>
+                <p class="effects-content-description">
+                  Organize university projects and have documents easily graded
+                  online with Product
+                </p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section class="question-section">
+        <div class="container question-container">
+          <h2 class="question-title">Frequently asked question</h2>
+          <p class="question-subtitle">
+            Something is not clear? You need help? Check our FAQ section
+          </p>
+          <ul class="question-list">
+            <li class="question-item">
+              <button type="button" class="question-button">
+                <svg class="question-icon" width="24" height="24">
+                  <use href="./images/icons.svg#question-icon-close"></use>
+                </svg>
+                <p class="question-text">What are my payment option?</p>
+              </button>
+              <p class="answer-content">
+                After creating your account you will have an oppurtunity to
+                create your first project that will be associated withthe
+                collaborators e-mail. An invitation will be sent automatically.
+                Then, invited user will have to confirm his account by e-mail
+                and finish userd onboarding.
+              </p>
+            </li>
+            <li class="question-item">
+              <button type="button" class="question-button">
+                <svg class="question-icon" width="24" height="24">
+                  <use href="./images/icons.svg#question-icon-close"></use>
+                </svg>
+                <p class="question-text">
+                  How can I invite collaborator to platform?
+                </p>
+              </button>
+              <p class="answer-content">
+                After creating your account you will have an oppurtunity to
+                create your first project that will be associated withthe
+                collaborators e-mail. An invitation will be sent automatically.
+                Then, invited user will have to confirm his account by e-mail
+                and finish userd onboarding.
+              </p>
+            </li>
+            <li class="question-item">
+              <button type="button" class="question-button">
+                <svg class="question-icon" width="24" height="24">
+                  <use href="./images/icons.svg#question-icon-close"></use>
+                </svg>
+                <p class="question-text">Can I upgrade my plan?</p>
+              </button>
+              <p class="answer-content">
+                After creating your account you will have an oppurtunity to
+                create your first project that will be associated withthe
+                collaborators e-mail. An invitation will be sent automatically.
+                Then, invited user will have to confirm his account by e-mail
+                and finish userd onboarding.
+              </p>
+            </li>
+            <li class="question-item">
+              <button type="button" class="question-button">
+                <svg class="question-icon" width="24" height="24">
+                  <use href="./images/icons.svg#question-icon-close"></use>
+                </svg>
+                <p class="question-text">Can I cancel my plan at anytime?</p>
+              </button>
+              <p class="answer-content">
+                After creating your account you will have an oppurtunity to
+                create your first project that will be associated withthe
+                collaborators e-mail. An invitation will be sent automatically.
+                Then, invited user will have to confirm his account by e-mail
+                and finish userd onboarding.
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="clients-section section">
+        <div class="clients-container">
+          <h2 class="clients-title visually-hidden">Our Clients</h2>
+          <div class="clients-content-wrapper">
+            <p class="clients-text">
+              Join 100 Compannies who boost their business with Product
+            </p>
+            <button class="clients-button" type="button">Get This</button>
+          </div>
+          <img
+            width="351"
+            height="330"
+            class="clients-image"
+            src="./images/graphics.svg"
+            alt="Cliens diagrams"
+          />
+        </div>
+      </section>
+    </main>
+    <footer id="footer" class="footer">
+      <div class="footer-container footer-wrapper">
+        <div class="footer-socials">
+          <a class="footer-logo" href="./index.html">
+            <svg class="icon" width="32" height="29">
+              <use href="./images/icons.svg#logo"></use>
+            </svg>
+            Product
+          </a>
+          <ul class="socials-list">
+            <li class="socials-item">
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://www.instagram.com/"
+                class="socials-link"
+              >
+                <svg class="socials-icon" width="20" height="20">
+                  <use href="./images/icons.svg#instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="socials-item">
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://uk-ua.facebook.com/"
+                class="socials-link"
+              >
+                <svg class="socials-icon" width="20" height="20">
+                  <use href="./images/icons.svg#facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="socials-item">
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://x.com"
+                class="socials-link"
+              >
+                <svg class="socials-icon" width="22" height="18">
+                  <use href="./images/icons.svg#twitter"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-resources">
+          <h2 class="footer-title modified">Resource</h2>
+          <ul class="footer-resources-list">
+            <li class="footer-resources-item footer-text">About Us</li>
+            <li class="footer-resources-item footer-text">Blog</li>
+            <li class="footer-resources-item footer-text">Contact</li>
+            <li class="footer-resources-item footer-text">FAQ</li>
+          </ul>
+        </div>
+        <div class="footer-stuff">
+          <h2 class="footer-title">Legal Stuff</h2>
+          <ul class="footer-stuff-list">
+            <li class="footer-stuff-item footer-text">Disclaimer</li>
+            <li class="footer-stuff-item footer-text">Financing</li>
+            <li class="footer-stuff-item footer-text">Privacy Policy</li>
+            <li class="footer-stuff-item footer-text modified">
+              Terms of Service
+            </li>
+          </ul>
+        </div>
+        <div class="footer-form">
+          <h2 class="footer-title form">
+            knowing you're always on <br />
+            the best energy deal.
+          </h2>
+          <form class="footer-form">
+            <label for="user-tel"></label>
+            <div class="footer-input-container">
+              <input
+                class="form-input"
+                id="user-tel"
+                type="tel"
+                name="user_tel"
+                placeholder="Enter your phone number"
+              />
+              <svg class="footer-form-icon" width="16" height="24">
+                <use href="/images/icons.svg#mobile-screen"></use>
+              </svg>
+            </div>
+
+            <button class="footer-button" type="submit">Sign up Now</button>
+          </form>
+        </div>
+      </div>
+    </footer>
+    <script src="./js/pricing/question.js"></script>
+  </body>
+</html>
